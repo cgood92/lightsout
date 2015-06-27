@@ -17,7 +17,7 @@ public class AskInput implements Serializable {
     private Board board;
     
     public AskInput(){
-        
+        System.out.println("intialized");
     }    
     
     public String askName(){
