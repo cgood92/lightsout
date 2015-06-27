@@ -34,6 +34,19 @@ public class Player implements Serializable {
     }
     public void printName(){
         System.out.println("\nWelcome " + this.name + "\n");
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" + "name=" + name + '}';
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 53 * hash + Objects.hashCode(this.name);
+        return hash;
+    }
 
     @Override
     public boolean equals(Object obj) {
