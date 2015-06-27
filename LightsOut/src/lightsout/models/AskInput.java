@@ -22,7 +22,7 @@ public class AskInput implements Serializable {
     
     public String askName(){
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your name: ");
+        System.out.println("Enter your First name: ");
         return input.next();
     }
         
