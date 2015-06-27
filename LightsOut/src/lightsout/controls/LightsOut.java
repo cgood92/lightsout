@@ -31,6 +31,11 @@ public class LightsOut {
             System.out.println("There was an unexpected error in the game.\nProgram will now close.");
             System.out.println(ex.getStackTrace());
         }
+        finally{
+            if (LightsOut.mainFrame != null) {
+                LightsOut.mainFrame.dispose();
+            }
+        }
     }
 }
 
