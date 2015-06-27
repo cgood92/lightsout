@@ -9,8 +9,8 @@ package lightsout.enums;
  * @author Clinton
  */
 public enum LightSwitch {
-    HIGHLIGHT ("HIGHLIGHT"),
-    DARKEN ("DARKEN");
+    ACTIVE ("ACTIVE"),
+    INACTIVE ("INACTIVE");
     
     String status;
     
