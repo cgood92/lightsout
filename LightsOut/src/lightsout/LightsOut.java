@@ -7,7 +7,6 @@ package lightsout.controls;
 import lightsout.models.Player;
 import java.util.Random;
 import java.util.Scanner;
-import lightsout.frames.GetNamesFrame;
 import lightsout.frames.MainFrame;
 
 /**
@@ -22,7 +21,7 @@ public class LightsOut {
                           /* Create and display the form */
             java.awt.EventQueue.invokeLater(new Runnable() {
                 public void run() {
-                    LightsOut.mainFrame = new MainFrame();
+                    LightsOut.mainFrame = new MainFrame(false);
                     LightsOut.mainFrame.setVisible(true);
                 }
             });
