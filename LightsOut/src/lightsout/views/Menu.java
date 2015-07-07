@@ -20,8 +20,8 @@ public abstract class Menu implements lightsout.interfaces.DisplayInfo, lightsou
     @Override
     public Status displayMenu()
     {
-        System.out.println("================= Menu ==================");
-        System.out.println("Please enter the letter for your choice: ");
+        System.out.println("================= Main Menu ==================");
+        System.out.println("Please enter the letter for your choice on this menu: ");
         for(int i = 0; i < this.menuItems.length; i++)
         {
             System.out.println("\t" + this.menuItems[i][0] + "\t" + this.menuItems[i][1]);
