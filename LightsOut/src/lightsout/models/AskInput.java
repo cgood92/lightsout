@@ -17,12 +17,12 @@ public class AskInput implements Serializable {
     private Board board;
     
     public AskInput(){
-        System.out.println("intialized");
+        
     }    
     
     public String askName(){
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter your First name: ");
+        System.out.println("Enter your name: ");
         return input.next();
     }
         

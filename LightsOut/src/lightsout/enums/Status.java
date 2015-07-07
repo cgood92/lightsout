@@ -10,9 +10,9 @@ package lightsout.enums;
  */
 public enum Status {
     IN_PROGRESS ("IN_PROGRESS"),
-    HALTED ("HALTED"), 
-    EXIT ("EXIT"), 
-    PROCEED ("PROCEED"), 
+    SOLVED ("SOLVED"), 
+    QUIT ("QUIT"), 
+    CONTINUE ("CONTINUE"), 
     RETURN ("RETURN"), 
     ERROR ("ERROR");
     
