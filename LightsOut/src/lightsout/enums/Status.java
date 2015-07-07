@@ -12,7 +12,7 @@ public enum Status {
     IN_PROGRESS ("IN_PROGRESS"),
     SOLVED ("SOLVED"), 
     QUIT ("QUIT"), 
-    CONTINUE ("CONTINUE"), 
+    CONTINUE ("CONTINUING"), 
     RETURN ("RETURN"), 
     ERROR ("ERROR");
     
